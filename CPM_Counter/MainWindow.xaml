@@ -1,0 +1,15 @@
+﻿<Window x:Class="CPM_Counter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Grid>
+        <Label x:Name="Label_Clicks" Content="" HorizontalAlignment="Left" Margin="100,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Button_Refresh" Content="Сброс статистики" HorizontalAlignment="Left" Margin="92,147,0,0" VerticalAlignment="Top" Width="102" Height="26" IsEnabled="False" Click="Button_Refresh_Click"/>
+        <Label x:Name="label" Content="Всего кликов:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="В секунду:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.484,2.077"/>
+        <Label x:Name="label1_Copy" Content="Максимум в секунду:" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.484,2.077"/>
+        <Label x:Name="Label_CPS" Content="" HorizontalAlignment="Left" Margin="100,41,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Label_CPS_Max" Content="" HorizontalAlignment="Left" Margin="137,72,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
